@@ -1,4 +1,4 @@
-package main
+package sloginit
 
 import (
 	"log"
@@ -15,7 +15,7 @@ func init() {
 	}
 }
 
-func main() {
+func example() {
 	loggerOptions := LoggerOptions{
 		AddSource:  viper.GetBool("log.add-source"),
 		Level:      viper.GetString("log.level"),
